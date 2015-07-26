@@ -1,0 +1,156 @@
+{
+    "timeline":
+    {
+        "headline":"Gereja Ganjuran",
+        "type":"default",
+		"startDate":"2000",
+		"text":"<div style='font-size:16px; font-weight:normal; color:#74736c;'>Sebuah gereja yang terletak di dusun Ganjuran Sumbermulyo Bambanglipuro Bantul<br />Gereja ini dibangun pada masa penjajahan Belanda</div>",
+		"asset":
+        {
+            "media":"",
+            "credit":"",
+            "caption":""
+        },
+        "date": [
+		{
+                "startDate":"1860",
+ 		    "headline":"Pabrik gula Gondang Lipuro dibangung",
+                "text":"Stefanus Barends mendirikan pabrik gula Gondang Lipuro, Stefanus Barends adalah suami Elise Fransisca Wilhelmia Kartaus",
+                "asset":
+                {
+                    
+                    "credit":"",
+                    "caption":""
+                }
+                
+            },
+
+	      {
+                "startDate":"1876",
+ 		    "headline":"Stefanus Barends meninggal dunia",
+                "text":"Sejak sepeninggalan suaminya, Elise Fransisca Wilhelmia kembali ke Surabaya",
+                "asset":
+                {
+                    "media":"",
+			"credit":"",
+                    "caption":""
+                }
+            },
+
+  		{
+                "startDate":"1862",
+ 		    "headline":"Membeli perkebunan tebu",
+                "text":"Stefanus Barends dan Elise Fransisca Wilhelmia Kartaus membeli perkebunan tebu di Gondang Lipuro, untuk meningkatkan produksi gula, Stefanus Barens dan Elise Fransisca Wilhelmia Kartaus membeli perkebunan tebu, hal ini dilakukan juga untuk meningkatkan kesejahteraan penduduk disekitar pabrik gondang lipuro",
+                "asset":
+                {
+                    "media":"",
+		    "credit":"",
+                    "caption":""
+                }
+            },
+
+	      {
+                "startDate":"1880",
+ 		    "headline":"Pertemuan dengan Gottfried Schmutzer",
+                "text":"Gottfried Schmutzer bertemu dengan Elise Fransisca Wilhelmia di Surabaya, kemudia mereka menikah di tahun 1880"
+            },
+
+		{
+                "startDate":"1881",
+                "headline":"Anak pertama lahir",
+		"text":"Elise Anna Maria Antonia Schmutzer anak pertama pasangan Gottfiend – Elise lahir",
+                "asset":
+                {
+                    "media":"<img src='http://placehold.it/350x150'>"
+                }
+            },
+          {
+                "startDate":"1882,11,11",
+            "headline":"Lahir anak kedua",
+                "text":"11 November 1882, Josef Ignas Julius Maria Schmutzer anak kedua pasangan Gottfiend – Elise lahir",
+                "asset":
+                {
+                    "media":"",
+              "credit":"",
+                    "caption":""
+                }
+            },
+          {
+                "startDate":"1884,12,12",
+            "headline":"Kelahiran anak ketiga",
+                "text":"Julius Robert Anton Maria Schmutzer anak ketiga pasangan Gottfiend – Elise lahir lahir",
+                "asset":
+                {
+                    "media":"",
+              "credit":"",
+                    "caption":""
+                }
+            },
+          {
+                "startDate":"1884,01,12",
+            "headline":"Keeeeeeeeeeeeeeeee",
+                "text":"Julius Robert Anton Maria Schmutzer anak ketiga pasangan Gottfiend – Elise lahir lahir",
+                "asset":
+                {
+                    "media":"",
+              "credit":"",
+                    "caption":""
+                }
+            },
+          {
+                "startDate":"1884,2,12",
+            "headline":"dddddddddddddd",
+                "text":"Julius Robert Anton Maria Schmutzer anak ketiga pasangan Gottfiend – Elise lahir lahir",
+                "asset":
+                {
+                    "media":"",
+              "credit":"",
+                    "caption":""
+                }
+            },
+          {
+                "startDate":"1884,03,30",
+            "headline":"cccccccccccccccc",
+                "text":"Julius Robert Anton Maria Schmutzer anak ketiga pasangan Gottfiend – Elise lahir lahir",
+                "asset":
+                {
+                    "media":"",
+              "credit":"",
+                    "caption":""
+                }
+            },
+          {
+                "startDate":"1916,4,12",
+            "headline":"bbbbbbbbbbbbbb",
+                "text":"Julius Robert Anton Maria Schmutzer anak ketiga pasangan Gottfiend – Elise lahir lahir",
+                "asset":
+                {
+                    "media":"",
+              "credit":"",
+                    "caption":""
+                }
+            },
+          {
+                "startDate":"2000,5,12",
+            "headline":"aaaaaaaaaaa",
+                "text":"Julius Robert Anton Maria Schmutzer anak ketiga pasangan Gottfiend – Elise lahir lahir",
+                "asset":
+                {
+                    "media":"",
+              "credit":"",
+                    "caption":""
+                }
+            }                                                                                    
+        ],
+        "era": [
+            {
+                "startDate":"1919",
+                "endDate":"1940",
+                "headline":"Era Pewartaan Gereja",
+                "text":"",
+                "tag":""
+            }
+            
+        ]        
+    }
+}

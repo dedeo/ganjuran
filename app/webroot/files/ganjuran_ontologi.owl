@@ -1,0 +1,1278 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY schema "http://schema.org/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.gerejaganjuran.or.id/ns/ganjuran#"
+     xml:base="http://www.gerejaganjuran.or.id/ns/ganjuran"
+     xmlns:schema="http://schema.org/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran">
+        <rdfs:comment rdf:datatype="&xsd;string">ontologi serajarah singkat berdirinya gereja ganjuran</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://schema.org/birthPlace -->
+
+    <owl:ObjectProperty rdf:about="&schema;birthPlace">
+        <rdfs:domain rdf:resource="&schema;Person"/>
+        <rdfs:range rdf:resource="&schema;Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/deathPlace -->
+
+    <owl:ObjectProperty rdf:about="&schema;deathPlace">
+        <rdfs:domain rdf:resource="&schema;Person"/>
+        <rdfs:range rdf:resource="&schema;Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/location -->
+
+    <owl:ObjectProperty rdf:about="&schema;location">
+        <rdfs:range rdf:resource="&schema;Place"/>
+        <rdfs:domain rdf:resource="&owl;Thing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#hasActivity -->
+
+    <owl:ObjectProperty rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#hasActivity">
+        <owl:inverseOf rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#hasObject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#hasAssistant -->
+
+    <owl:ObjectProperty rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#hasAssistant"/>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#hasChild -->
+
+    <owl:ObjectProperty rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#hasChild">
+        <rdfs:domain rdf:resource="&schema;Person"/>
+        <rdfs:range rdf:resource="&schema;Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#hasFather -->
+
+    <owl:ObjectProperty rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#hasFather">
+        <owl:inverseOf rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#isFatherOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#hasFounder -->
+
+    <owl:ObjectProperty rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#hasFounder">
+        <rdfs:range rdf:resource="&schema;Person"/>
+        <rdfs:domain rdf:resource="&schema;Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#hasHusband -->
+
+    <owl:ObjectProperty rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#hasHusband">
+        <rdfs:range rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Men"/>
+        <rdfs:domain rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Woman"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#hasMother -->
+
+    <owl:ObjectProperty rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#hasMother">
+        <owl:inverseOf rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#isMotherOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#hasObject -->
+
+    <owl:ObjectProperty rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#hasObject"/>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#hasRole -->
+
+    <owl:ObjectProperty rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#hasRole"/>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#hasSubject -->
+
+    <owl:ObjectProperty rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#hasSubject"/>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#hasWife -->
+
+    <owl:ObjectProperty rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#hasWife">
+        <rdfs:domain rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Men"/>
+        <rdfs:range rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Woman"/>
+        <owl:inverseOf rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#hasHusband"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#isFatherOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#isFatherOf">
+        <rdfs:range rdf:resource="&schema;Person"/>
+        <rdfs:domain rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Men"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#isMotherOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#isMotherOf">
+        <rdfs:range rdf:resource="&schema;Person"/>
+        <rdfs:domain rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Woman"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#partner -->
+
+    <owl:ObjectProperty rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#partner">
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://schema.org/GeoCoordinates -->
+
+    <owl:DatatypeProperty rdf:about="&schema;GeoCoordinates"/>
+    
+
+
+    <!-- http://schema.org/alternateName -->
+
+    <owl:DatatypeProperty rdf:about="&schema;alternateName">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="&owl;Thing"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/birthDate -->
+
+    <owl:DatatypeProperty rdf:about="&schema;birthDate">
+        <rdfs:domain rdf:resource="&schema;Person"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/deathDate -->
+
+    <owl:DatatypeProperty rdf:about="&schema;deathDate">
+        <rdfs:domain rdf:resource="&schema;Person"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/description -->
+
+    <owl:DatatypeProperty rdf:about="&schema;description">
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+        <rdfs:domain rdf:resource="&owl;Thing"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/endDate -->
+
+    <owl:DatatypeProperty rdf:about="&schema;endDate">
+        <rdfs:domain rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/latitude -->
+
+    <owl:DatatypeProperty rdf:about="&schema;latitude">
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/location -->
+
+    <owl:DatatypeProperty rdf:about="&schema;location">
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/longitude -->
+
+    <owl:DatatypeProperty rdf:about="&schema;longitude">
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/name -->
+
+    <owl:DatatypeProperty rdf:about="&schema;name">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="&owl;Thing"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/sameAs -->
+
+    <owl:DatatypeProperty rdf:about="&schema;sameAs"/>
+    
+
+
+    <!-- http://schema.org/startDate -->
+
+    <owl:DatatypeProperty rdf:about="&schema;startDate">
+        <rdfs:domain rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/title -->
+
+    <owl:DatatypeProperty rdf:about="&schema;title">
+        <rdfs:domain rdf:resource="&schema;Person"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/url -->
+
+    <owl:DatatypeProperty rdf:about="&schema;url">
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+        <rdfs:domain rdf:resource="&owl;Thing"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#aktifitas -->
+
+    <owl:DatatypeProperty rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#aktifitas"/>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#eventDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#eventDate">
+        <rdfs:domain rdf:resource="&schema;Event"/>
+        <rdfs:domain rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#hasRole -->
+
+    <owl:DatatypeProperty rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#hasRole"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://schema.org/Event -->
+
+    <owl:Class rdf:about="&schema;Event"/>
+    
+
+
+    <!-- http://schema.org/Person -->
+
+    <owl:Class rdf:about="&schema;Person"/>
+    
+
+
+    <!-- http://schema.org/Place -->
+
+    <owl:Class rdf:about="&schema;Place"/>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Activity -->
+
+    <owl:Class rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Men -->
+
+    <owl:Class rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Men">
+        <rdfs:subClassOf rdf:resource="&schema;Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Woman -->
+
+    <owl:Class rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Woman">
+        <rdfs:subClassOf rdf:resource="&schema;Person"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Arnhem -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Arnhem">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:name>Arnhem</schema:name>
+        <schema:url>http://en.wikipedia.org/wiki/Arnhem</schema:url>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Bekang -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Bekang">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:name>Bekang</schema:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#C_Dirjo_Sudaryo -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#C_Dirjo_Sudaryo">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Men"/>
+        <schema:name rdf:datatype="&xsd;string">C Dirjo Sudaryo</schema:name>
+        <schema:birthPlace rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Siten"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Candi_Ganjuran -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Candi_Ganjuran">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:name>Candi Hati Kudus Tuhan Yesus Ganjuran</schema:name>
+        <schema:location rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Ganjuran"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Caroline_Theresia_Maria_van_Rijckevorsel -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Caroline_Theresia_Maria_van_Rijckevorsel">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Woman"/>
+        <schema:deathDate rdf:datatype="&rdfs;Literal">1990</schema:deathDate>
+        <schema:name rdf:datatype="&rdfs;Literal">Caroline Theresia Maria van Rijckevorsel</schema:name>
+        <hasActivity rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act13"/>
+        <hasActivity rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act14"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Cepaka -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Cepaka">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:name>Cepaka</schema:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Darmowiyoto -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Darmowiyoto">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Men"/>
+        <schema:birthPlace rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Gedangan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Dirjosumarto -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Dirjosumarto">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Men"/>
+        <schema:birthPlace rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Kedon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Dusun_Lipuro -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Dusun_Lipuro">
+        <rdf:type rdf:resource="&schema;Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Eduard_Milhelm_Maria_Schmutzer -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Eduard_Milhelm_Maria_Schmutzer">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Men"/>
+        <schema:birthDate rdf:datatype="&rdfs;Literal">08-10-1887</schema:birthDate>
+        <schema:deathDate rdf:datatype="&rdfs;Literal">1905</schema:deathDate>
+        <schema:name rdf:datatype="&rdfs;Literal">Eduard Milhelm Maria Schmutzer</schema:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Elise_Anna_Maria_Schmutzer -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Elise_Anna_Maria_Schmutzer">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Woman"/>
+        <schema:name rdf:datatype="&xsd;string">Elise Anna Maria Schmutzer</schema:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Elise_Francisca_Wilhelmia_Kartaus -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Elise_Francisca_Wilhelmia_Kartaus">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Woman"/>
+        <schema:birthDate rdf:datatype="&xsd;integer">1852</schema:birthDate>
+        <schema:deathDate rdf:datatype="&rdfs;Literal">1912</schema:deathDate>
+        <schema:name rdf:datatype="&rdfs;Literal">Elise Francisca Wilhelmia Karthaus</schema:name>
+        <isMotherOf rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Eduard_Milhelm_Maria_Schmutzer"/>
+        <isMotherOf rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Elise_Anna_Maria_Schmutzer"/>
+        <isMotherOf rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Ferdinand_Barends"/>
+        <isMotherOf rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Josef_Ignas_Julius_Maria_Schmutzer"/>
+        <isMotherOf rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Julius_Robert_Anton_Maria_Schmutzer"/>
+        <schema:birthPlace rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Surabaya"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Ferdinand_Barends -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Ferdinand_Barends">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Men"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Ganjuran -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Ganjuran">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:name>Ganjuran</schema:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Gedangan -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Gedangan">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:name>Gedangan</schema:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Gereja_Ganjuran -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Gereja_Ganjuran">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:GeoCoordinates>-7.926581,110.318994</schema:GeoCoordinates>
+        <schema:name>Gereja Hati Kudus Tuhan Yesus Ganjuran</schema:name>
+        <schema:sameAs>http://id.wikipedia.org/wiki/Gereja_Ganjuran</schema:sameAs>
+        <schema:location rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Ganjuran"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Gottfried_Schmutzer -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Gottfried_Schmutzer">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Men"/>
+        <schema:deathDate rdf:datatype="&rdfs;Literal">1902</schema:deathDate>
+        <schema:name rdf:datatype="&rdfs;Literal">Gottfried Schmutzer</schema:name>
+        <isFatherOf rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Eduard_Milhelm_Maria_Schmutzer"/>
+        <isFatherOf rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Elise_Anna_Maria_Schmutzer"/>
+        <hasWife rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Elise_Francisca_Wilhelmia_Kartaus"/>
+        <isFatherOf rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Josef_Ignas_Julius_Maria_Schmutzer"/>
+        <isFatherOf rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Julius_Robert_Anton_Maria_Schmutzer"/>
+        <hasActivity rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act02"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Gunturgeni -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Gunturgeni">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:name>Gunturgeni</schema:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#I_Waginem -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#I_Waginem">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Woman"/>
+        <schema:name rdf:datatype="&rdfs;Literal">I. Waginem</schema:name>
+        <schema:alternateName>Tante A</schema:alternateName>
+        <schema:alternateName>Ignatia Padmajatiwara</schema:alternateName>
+        <partner rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Caroline_Theresia_Maria_van_Rijckevorsel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Josef_Ignas_Julius_Maria_Schmutzer -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Josef_Ignas_Julius_Maria_Schmutzer">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Men"/>
+        <schema:birthDate rdf:datatype="&rdfs;Literal">11-11-1882</schema:birthDate>
+        <schema:deathDate rdf:datatype="&rdfs;Literal">26-09-1946</schema:deathDate>
+        <schema:title rdf:datatype="&rdfs;Literal">Doktor</schema:title>
+        <schema:name rdf:datatype="&rdfs;Literal">Josef Ignas Julius Maria Schmutzer</schema:name>
+        <schema:title>Insinyur</schema:title>
+        <hasWife rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Lucie_Cornelle_Amelie_Hendriksz"/>
+        <hasActivity rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act03"/>
+        <hasActivity rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act10"/>
+        <hasActivity rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act11"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Julius_Robert_Anton_Maria_Schmutzer -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Julius_Robert_Anton_Maria_Schmutzer">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Men"/>
+        <schema:birthDate rdf:datatype="&rdfs;Literal">12-12-1884</schema:birthDate>
+        <schema:deathDate rdf:datatype="&rdfs;Literal">1954</schema:deathDate>
+        <schema:name rdf:datatype="&rdfs;Literal">Julius Robert Anton Maria Schmutzer</schema:name>
+        <hasWife rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Caroline_Theresia_Maria_van_Rijckevorsel"/>
+        <hasActivity rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act04"/>
+        <hasActivity rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act05"/>
+        <hasActivity rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act06"/>
+        <hasActivity rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act07"/>
+        <hasActivity rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act08"/>
+        <hasActivity rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act12"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Kaligondang -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Kaligondang">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:name>Kaligondang</schema:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Kanutan -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Kanutan">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:name>Kanutan</schema:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Karangmojo -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Karangmojo">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:name>Karangmojo</schema:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Kedon -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Kedon">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:name>Kedon</schema:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Klagaran -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Klagaran">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:name>Klagaran</schema:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Klaten -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Klaten">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:name>Klaten</schema:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Kopschool -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Kopschool">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:name>Kopschool Standardsch</schema:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Krajan -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Krajan">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:name>Krajan</schema:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#L_Darmoatmojo -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#L_Darmoatmojo">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Men"/>
+        <schema:name rdf:datatype="&rdfs;Literal">L. Darmoatmojo</schema:name>
+        <schema:birthPlace rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Siten"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Lucie_Cornelle_Amelie_Hendriksz -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Lucie_Cornelle_Amelie_Hendriksz">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Woman"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#M_Somaatmaja -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#M_Somaatmaja">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Men"/>
+        <schema:birthPlace rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Solo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Mgr_van_Velsen_SJ -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Mgr_van_Velsen_SJ">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Men"/>
+        <schema:name rdf:datatype="&rdfs;Literal">Mgr. Van Velsen SJ</schema:name>
+        <schema:description>adalah seorang Uskup Batavia</schema:description>
+        <hasActivity rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act16"/>
+        <hasActivity rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act17"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Padmayatiwara -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Padmayatiwara">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Men"/>
+        <schema:name>Padmayatiwara</schema:name>
+        <schema:birthPlace rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Klaten"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#RS_Onder_de_Bogen -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#RS_Onder_de_Bogen">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:sameAs>http://id.wikipedia.org/wiki/Rumah_Sakit_Umum_Panti_Rapih</schema:sameAs>
+        <schema:url>http://www.pantirapih.or.id/</schema:url>
+        <schema:sameAs>http://en.wikipedia.org/wiki/Panti_Rapih_Hospital</schema:sameAs>
+        <schema:name>Rumah Sakit Onder de Bogen</schema:name>
+        <schema:alternateName>Rumah Sakit Panti Rapih</schema:alternateName>
+        <schema:location rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Yogyakarta"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#RS_St_Elisabeth -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#RS_St_Elisabeth">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:GeoCoordinates>-7.92436,110.318398</schema:GeoCoordinates>
+        <schema:location rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Ganjuran"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Rm_van_Driessche_SJ -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Rm_van_Driessche_SJ">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Men"/>
+        <schema:name rdf:datatype="&rdfs;Literal">Rm. van Driessche, SJ</schema:name>
+        <partner rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act15"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Sangkeh -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Sangkeh">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:name>Sangkeh</schema:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Siswodiningrat -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Siswodiningrat">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Men"/>
+        <schema:name rdf:datatype="&rdfs;Literal">Siswodiningrat</schema:name>
+        <schema:birthPlace rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Karangmojo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Siten -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Siten">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:name>Siten</schema:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Solo -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Solo">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:latitude rdf:datatype="&xsd;float">-7.566667</schema:latitude>
+        <schema:longitude rdf:datatype="&xsd;float">110.816666</schema:longitude>
+        <schema:url>http://www.surakarta.go.id/</schema:url>
+        <schema:alternateName>Surakarta</schema:alternateName>
+        <schema:name>Solo</schema:name>
+        <schema:sameAs>http://en.wikipedia.org/wiki/Surakarta</schema:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Sri_Sultan_Hamengku_Buwono_VIII -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Sri_Sultan_Hamengku_Buwono_VIII">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Men"/>
+        <schema:deathDate>22 Oktober 1939</schema:deathDate>
+        <schema:name>Sri Sultan Hamengkubuwana VIII</schema:name>
+        <schema:birthDate>3 Maret 1880</schema:birthDate>
+        <schema:sameAs>http://id.wikipedia.org/wiki/Hamengkubuwana_VIII</schema:sameAs>
+        <schema:alternateName>Gusti Raden Mas Sujadi</schema:alternateName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Srihardono -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Srihardono">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:url>http://id.wikipedia.org/wiki/Srihardono,_Pundong,_Bantul</schema:url>
+        <schema:name>Srihardono</schema:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Standardschool -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Standardschool">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:alternateName rdf:datatype="&xsd;string">Sekolah Dasar</schema:alternateName>
+        <schema:name>Standardschool</schema:name>
+        <schema:location rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Ganjuran"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Stefanus_Barends -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Stefanus_Barends">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Men"/>
+        <schema:deathDate rdf:datatype="&rdfs;Literal">1876</schema:deathDate>
+        <schema:name rdf:datatype="&xsd;string">Stefanus Barends</schema:name>
+        <hasWife rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Elise_Francisca_Wilhelmia_Kartaus"/>
+        <isFatherOf rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Ferdinand_Barends"/>
+        <hasActivity rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act01"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Surabaya -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Surabaya">
+        <rdf:type rdf:resource="&schema;Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Utrecht -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Utrecht">
+        <rdf:type rdf:resource="&schema;Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Vervolgschool_Ganjuran -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Vervolgschool_Ganjuran">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:description></schema:description>
+        <schema:name>Vervolgschool</schema:name>
+        <schema:location rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Ganjuran"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Volkschool_Bekang -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Volkschool_Bekang">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:location rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Bekang"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Volkschool_Cepaka -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Volkschool_Cepaka">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:location rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Cepaka"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Volkschool_Kanutan -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Volkschool_Kanutan">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:location rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Kanutan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Volkschool_Klagaran -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Volkschool_Klagaran">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:location rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Klagaran"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Volkschool_Krajan -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Volkschool_Krajan">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:location rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Krajan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Volkschool_Putri_Ganjuran -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Volkschool_Putri_Ganjuran">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:location rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Ganjuran"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Volkschool_Putri_Sangkeh -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Volkschool_Putri_Sangkeh">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:location rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Sangkeh"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Volkschool_Sangkeh -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Volkschool_Sangkeh">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:location rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Sangkeh"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Volkschool_Srihardono -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Volkschool_Srihardono">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:location rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Srihardono"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Volkstraad -->
+
+    <owl:Thing rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Volkstraad">
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#Yogyakarta -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#Yogyakarta">
+        <rdf:type rdf:resource="&schema;Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#bintang_oranje_nassau -->
+
+    <owl:Thing rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#bintang_oranje_nassau">
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#pabrik_gula_gondang_lipuro -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#pabrik_gula_gondang_lipuro">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:name>Pabrik Gula Gondang Lipuro</schema:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#perkebunan_tebu -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#perkebunan_tebu">
+        <rdf:type rdf:resource="&schema;Place"/>
+        <schema:name>Perkebunan tebu</schema:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#poliklinik -->
+
+    <owl:Thing rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#poliklinik">
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <schema:name>Poliklinik</schema:name>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#_:act01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act01">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:label xml:lang="en">act01</rdfs:label>
+        <schema:startDate rdf:datatype="&rdfs;Literal">01-09-1862</schema:startDate>
+        <hasSubject rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Stefanus_Barends"/>
+        <hasObject rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#perkebunan_tebu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#_:act02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act02">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:label xml:lang="en">act02</rdfs:label>
+        <schema:startDate rdf:datatype="&rdfs;Literal">1880</schema:startDate>
+        <aktifitas>menikah</aktifitas>
+        <hasObject rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Elise_Francisca_Wilhelmia_Kartaus"/>
+        <hasSubject rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Gottfried_Schmutzer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#_:act03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act03">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:label xml:lang="en">act03</rdfs:label>
+        <hasRole rdf:datatype="&rdfs;Literal">dosen</hasRole>
+        <hasObject rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Utrecht"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#_:act04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act04">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:label xml:lang="en">act04</rdfs:label>
+        <schema:startDate rdf:datatype="&rdfs;Literal">1920</schema:startDate>
+        <schema:name rdf:datatype="&rdfs;Literal">menikah</schema:name>
+        <hasObject rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Caroline_Theresia_Maria_van_Rijckevorsel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#_:act05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act05">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:label xml:lang="en">act05</rdfs:label>
+        <schema:startDate rdf:datatype="&rdfs;Literal">16-04-1924</schema:startDate>
+        <schema:name rdf:datatype="&rdfs;Literal">mendirikan</schema:name>
+        <hasObject rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Gereja_Ganjuran"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#_:act06 -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act06">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:label xml:lang="en">act06</rdfs:label>
+        <schema:endDate rdf:datatype="&rdfs;Literal">11-02-1930</schema:endDate>
+        <schema:startDate rdf:datatype="&rdfs;Literal">26-12-1927</schema:startDate>
+        <schema:name rdf:datatype="&rdfs;Literal">membangun</schema:name>
+        <hasObject rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Candi_Ganjuran"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#_:act07 -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act07">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:label xml:lang="en">act07</rdfs:label>
+        <schema:startDate rdf:datatype="&rdfs;Literal">1930</schema:startDate>
+        <schema:name rdf:datatype="&rdfs;Literal">membangun</schema:name>
+        <schema:description rdf:datatype="&rdfs;Literal">membangun rumah sakit sebagai hadiah ulang tahun istrinya,</schema:description>
+        <hasObject rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#RS_St_Elisabeth"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#_:act08 -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act08">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:label xml:lang="en">act08</rdfs:label>
+        <eventDate rdf:datatype="&rdfs;Literal">01-01-1930</eventDate>
+        <schema:description rdf:datatype="&rdfs;Literal">Atas jasa-jasanya dalam bidang kerasulan sosial, Julius Robert Anton Maria Schmutzer mendapat anugerah Bintang Ordo Gregorius Agung. yaitu sebuah bintang anugrah dari Tahta Suci.</schema:description>
+        <schema:name rdf:datatype="&rdfs;Literal">mendapatkan</schema:name>
+        <hasObject rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act21"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#_:act09 -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act09">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:label xml:lang="en">act09</rdfs:label>
+        <aktifitas>membangun</aktifitas>
+        <hasObject rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#pabrik_gula_gondang_lipuro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#_:act10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act10">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:label xml:lang="en">act10</rdfs:label>
+        <eventDate rdf:datatype="&xsd;integer">1912</eventDate>
+        <aktifitas>membeli</aktifitas>
+        <partner rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Julius_Robert_Anton_Maria_Schmutzer"/>
+        <hasActivity rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#pabrik_gula_gondang_lipuro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#_:act11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act11">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:label xml:lang="en">act11</rdfs:label>
+        <schema:startDate rdf:datatype="&xsd;integer">1930</schema:startDate>
+        <aktifitas>ketua</aktifitas>
+        <hasObject rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Volkstraad"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#_:act12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act12">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:label xml:lang="en">act12</rdfs:label>
+        <schema:startDate rdf:datatype="&xsd;integer">1934</schema:startDate>
+        <aktifitas>menetap</aktifitas>
+        <hasObject rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Arnhem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#_:act13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act13">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:label xml:lang="en">act13</rdfs:label>
+        <schema:startDate rdf:datatype="&xsd;integer">1921</schema:startDate>
+        <schema:description>Carolina Theresia Maria van Rijckevorsel merintis sebuah poliklinik di garasi rumahnya dan dibantu oleh ibu I. Wagiem (Ignatia Padmajatiwara). Poliklinik ini adalah cikal bakal berdirinya rumah sakit Santa Elisabeth Ganjuran</schema:description>
+        <aktifitas>merintis</aktifitas>
+        <partner rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#I_Waginem"/>
+        <hasObject rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#poliklinik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#_:act14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act14">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:label xml:lang="en">act14</rdfs:label>
+        <eventDate rdf:datatype="&xsd;integer">1933</eventDate>
+        <schema:description>Atas kepedulian sosial di Ganjuran dan keikutsertaan dalam kumpulan Melania, Caroline Theresia Maria van Rijckevorsel mendapatkan sebuah penghargaan bintang Oranje Nassau, serta mendapatkan ucapan selamat dari Sri Sultan Hamengku Buwana VII</schema:description>
+        <aktifitas>mendapatkan</aktifitas>
+        <hasObject rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#bintang_oranje_nassau"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#_:act15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act15">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:label xml:lang="en">act15</rdfs:label>
+        <schema:startDate rdf:datatype="&xsd;integer">1920</schema:startDate>
+        <schema:endDate rdf:datatype="&xsd;integer">1934</schema:endDate>
+        <schema:description>Romo van Driessche, SJ adalah pewarta pertama yang datang di Ganjuran pada tahun 1920, jauh sebelum gereja Ganjuran dibangun.
+Romo van Driessche, SJ mengajar pelajaran agama pertama kali kepada guru-guru dan karyawan pabrik.
+Setelah Gereja Ganjuran dibangun, Romo van Driessche, SJ menjadi gembala umat yang pertama berkarya di Gereja HKTY Ganjuran</schema:description>
+        <aktifitas>pewarta</aktifitas>
+        <hasObject rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Ganjuran"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#_:act16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act16">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:label xml:lang="en">act16</rdfs:label>
+        <eventDate>11 Februari 1930</eventDate>
+        <aktifitas>memberkati</aktifitas>
+        <hasObject rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Candi_Ganjuran"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#_:act17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act17">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:label xml:lang="en">act17</rdfs:label>
+        <eventDate>25 Agustus 1929</eventDate>
+        <aktifitas>memberkati</aktifitas>
+        <hasObject rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#RS_Onder_de_Bogen"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#_:act18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act18">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:label xml:lang="en">act18</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#_:act19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act19">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:label xml:lang="en">act19</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#_:act20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act20">
+        <rdf:type rdf:resource="http://www.gerejaganjuran.or.id/ns/ganjuran#Activity"/>
+        <rdfs:label xml:lang="en">act20</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gerejaganjuran.or.id/ns/ganjuran#_:act21 -->
+
+    <owl:Thing rdf:about="http://www.gerejaganjuran.or.id/ns/ganjuran#_:act21">
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <rdfs:label xml:lang="en">Bintang_Gregorius</rdfs:label>
+        <schema:name>Bintang Ordo Gregorius Agung</schema:name>
+    </owl:Thing>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

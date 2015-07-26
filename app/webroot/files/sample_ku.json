@@ -1,0 +1,62 @@
+'{
+	"timeline":
+	{	
+		"headline":"Gereja Ganjuran",
+		"type":"default",
+		"startDate":"2000",
+		"text":"<div style='font-size:16px; font-weight:normal; color:#74736c;'>Sebuah gereja yang terletak di dusun Ganjuran Sumbermulyo Bambanglipuro Bantul<br \/>Gereja ini dibangun pada masa penjajahan Belanda<\/div>",
+		"asset":{"media":"","credit":"","caption":""},
+		"date":[
+			{	
+				"startDate":"1930-02-11",
+				"headline":"Pemberkatan Candi Ganjuran",
+				"text":"Pembangunan candi memakan waktu lebih dari 2 tahun. Oleh karena itu baru pada tahun 1930, tepatnya pada tanggal 11 Februaru 1930, Mgr. van Velsen, SJ datang lagi ke Ganjuran untuk memberkati Candi Hati Kudus Tuhan Yesus.",
+				"asset":{"credit":"","caption":""}
+			},
+			{	"startDate":"1860",
+				"headline":"Mendirikan Pabrik Gula Gondang Lipuro",
+				"text":null,
+				"asset":{"credit":"","caption":""}
+			},
+			{	"startDate":"1927-12-26",
+				"headline":"Peletakan batu pertama candi Ganjuran","text":"Peletakan batu pertama dilakukan pada tanggal 26 Desember 1927, oleh Mgr. van Velse SJ, seorang Uskup Batavia. Pada saat itu dilakukan pula pemberkatan patung Hati Kudus Tuhan Yesus kecil yang akan ditanam di dalam candi. Pada kesempatan itu Mgr, van Velsen SJ minta agar candi dijadikan sebagai monumen Gereja Katolik secara Nasional, sehingga di hadapan Kristus Raja dimohon perlindungan bagi umat-Nya (diseluruh tanah Jawa)",
+				"asset":{"credit":"","caption":""}
+			},
+			{	"startDate":"1924-04-16",
+				"headline":"Pembangunan Gereja",
+				"text":null,
+				"asset":{"credit":"","caption":""}
+			},
+			{	"startDate":"1924-08-20",
+				"headline":"Pemberkatan Gereja",
+				"text":null,
+				"asset":{"credit":"","caption":""}
+			},
+			{	"startDate":"01-01-1930",
+				"headline":"act08",
+				"text":"Atas jasa-jasanya dalam bidang kerasulan sosial, Julius Robert Anton Maria Schmutzer mendapat anugerah Bintang Ordo Gregorius Agung. yaitu sebuah bintang anugrah dari Tahta Suci.",
+				"asset":{"credit":"","caption":""}
+			},
+			{	"startDate":"1912",
+				"headline":"act10",
+				"text":null,
+				"asset":{"credit":"","caption":""}
+			},
+			{	"startDate":"1933",
+				"headline":"act14",
+				"text":"Atas kepedulian sosial di Ganjuran dan keikutsertaan dalam kumpulan Melania, Caroline Theresia Maria van Rijckevorsel mendapatkan sebuah penghargaan bintang Oranje Nassau, serta mendapatkan ucapan selamat dari Sri Sultan Hamengku Buwana VII",
+				"asset":{"credit":"","caption":""}
+			},
+			{	"startDate":"11 Februari 1930",
+				"headline":"act16",
+				"text":null,
+				"asset":{"credit":"","caption":""}
+			},
+			{	"startDate":"25 Agustus 1929",
+				"headline":"act17",
+				"text":null,
+				"asset":{"credit":"","caption":""}
+			}
+		]
+	}
+}'

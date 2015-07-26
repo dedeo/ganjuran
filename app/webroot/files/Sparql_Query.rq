@@ -1,0 +1,9 @@
+SELECT DISTINCT *
+WHERE {
+?s rdf:type owl:Thing;
+rdf:type ?type.
+OPTIONAL{ ?s schema:name ?name}.
+OPTIONAL{ ?s gdata:aktifitas ?label}.
+FILTER (?type IN (schema:Person,schema:Place,schema:Event,gdata:Activity ))
+}
+ORDER BY ?type
