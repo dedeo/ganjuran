@@ -1,0 +1,99 @@
+html{height:100%;margin:0;padding:0;}
+
+body {
+	font-size: 11px;
+	font-family: "Segoe UI", "Calibri", "Arial";
+	color: #000;
+	height: 100%;
+	background: #eeeeee;
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	src:url('../fonts/TrajanPro-Regular.ttf') format('truetype'),url('../fonts/Lato-Regular.ttf') format('truetype');
+}
+
+a{color:#0075d8;text-decoration:none;}
+
+a:hover{color:#7e7e7e;text-decoration:underline;}
+
+a.disabled {pointer-events: none;}
+
+h1{font-size: 21px;margin:2px;}
+h2{font-size: 19px;margin:2px;}
+h3{font-size: 17px;margin:2px;}
+h4{font-size: 15px;margin:2px;}
+h5{font-size: 13px;margin:2px;}
+h6{font-size: 11px;margin:2px;}
+
+#wrapper {
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+
+.view_center {
+	width: 1150px;
+	margin: auto;
+}
+
+#top_menu {padding: 5px 5px; background-color: #000; z-index: 10}
+#top_menu_wrap {width: 100%; height: 50px; background-color: #000;}
+#banner {
+	padding: 5px 0; 
+	float: left; 
+	width: 350px;
+	height: 50px; 
+	/*background: url(../img/banner.jpg) no-repeat;*/
+}
+
+#nav { font:12px "Segoe UI" ,Arial; padding: 5px 0; margin-top: 0px; float: left; width: 750px; height: 30px; background-color: #000;}
+#nav ul{margin-left: -20px;}
+#nav ul li{float: left;margin-right: 5px;list-style: none;}
+#nav ul li , a  {text-decoration: none; color: #fff; padding: 2px 5px;}
+#nav ul li a:hover{text-decoration:none; padding: 8px 5px; border-bottom: 2px solid #997035; color:#997035;}
+
+#menu_sidebar{font:12px "Lato Regular" ,Arial; padding: 5px 0; margin-left: -20px; list-style: none; margin-top: 15px;}
+#menu_sidebar ul {list-style: none; margin-left: -20px;}
+#menu_sidebar ul li {background-color: #CAAD83; height: 45px; padding-top: 15px; padding-left: 10px; margin-bottom: 2px;}
+#menu_sidebar ul li:nth-child(odd) {background-color: #B1946A;}
+#menu_sidebar a{color: #000100; text-decoration: none;}
+#menu_sidebar a:hover{color: #997035; text-decoration: none;}
+
+
+#slider {width: 100%; height: 580px; background-color: #ccc; }
+#gradient{margin-top: -580px; height: 170px; position: absolute; border: 1px solid red; width: 100%; background: url('../img/gradient.png');}
+#gradient img{height: 150px; width: 100%;}
+#wrap_content {width: 100%; height: auto; padding: 10px 0px; background-color: #fff;}
+#cont {font:14px "Lato Regular", Arial; line-height: 20px; color: #3D3C41; padding: 15px 5px; text-align: center;}
+#content {font:14px "Lato Regular", Arial; line-height: 20px; color: #3D3C41; padding: 15px 5px; text-align: justify;}
+#wrap_content2 {width: 100%; height: auto; padding: 10px 0px; background-color: #EFDABD;}
+#wrap_content3 {width: 100%; height: auto; padding: 10px 0px; background-color: #FFFFFF;}
+#wrap_content3 hr {border-color: #9C6F34;}
+
+
+#title_content {font: 30px "Trajan Pro", Arial; font-weight: bold; padding-bottom: 15px;}
+#date_content {font: 15px "Lato Regular", Arial; padding-bottom: 5px;}
+
+/*.news_title {font: 25px "Lato Regular", Arial; color: #9B6E35;}*/
+.news_title h3{ font: 25px "Lato Regular", Arial; color: #9B6E35; }
+
+.posting {font: 12px "Lato Regular", Arial; color: #383838;}
+
+#breadcrumb {width: 100%; height: auto; padding: 8px 0px; background-color: #997134;}
+#cont_breadcrumb {font:13px "Lato Regular", Arial; line-height: 20px; color: #FFFFFF; padding: 0px 5px; text-align: left;}
+#cont_breadcrumb a {text-decoration: none; color: #fff; margin-left: -5px;}
+#cont_breadcrumb a:hover {text-decoration: none; color: #000; margin-left: -5px;}
+
+#maps {width: 100%; height: 350px; background-color: #eeeeee; border-top: 4px solid #B1946A;}
+#maps img{width: 100%; height: 350px; }
+#wrap_footer {width: 100%; height: 180px; background-color: #191919; padding-top: 20px; border-bottom: 15px solid #000000;}
+#footer {font:11px "Lato Regular", Arial; color: #fff; padding: 15px 5px;}
+
+.title_thumnail { font: 13px "Lato Regular", Arial; color: #9C6F34; height: 30px; margin-top: 10px;}
+.title_thumnail a{ font: 13px "Lato Regular", Arial;text-decoration: none; color: #9C6F34;}
+.title_thumnail a:hover{ font: 13px "Lato Regular", Arial;text-decoration: none; color: #3D3C41;}
+.isi_thumnail { font: 12px "Lato Regular", Arial; color: #3D3C41; margin-bottom: 15px;}
+.date_thumnail {background: #9C6F34; z-index: 999999; position: absolute; top: 10px; right: +25px;  margin-bottom: -30px; float: right;  height: 45px; width: 45px; text-align: left; color: #fff; padding: 5px; font: 16px "Lato Regular", Arial; }
+.clear {clear: both;}
