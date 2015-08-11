@@ -1,0 +1,1802 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pro",
+				"profile"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"bl",
+				"blockId"
+			],
+			[
+				"page",
+				"pageId"
+			],
+			[
+				"date",
+				"dateArr"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"fon",
+				"font"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"prti",
+				"print_r"
+			],
+			[
+				"adm",
+				"adminName"
+			],
+			[
+				"nil",
+				"nilai2"
+			],
+			[
+				"nila",
+				"nilai1"
+			],
+			[
+				"op",
+				"operator"
+			],
+			[
+				"stat",
+				"statuses"
+			],
+			[
+				"sho",
+				"short_p"
+			],
+			[
+				"shor",
+				"short_s"
+			],
+			[
+				"sc",
+				"schema"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"Node",
+				"Nodes"
+			],
+			[
+				"data",
+				"dataGraph"
+			],
+			[
+				"ro",
+				"row"
+			],
+			[
+				"ser",
+				"serialse"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"graph",
+				"graphData"
+			],
+			[
+				"gra",
+				"graphData"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"re",
+				"results"
+			],
+			[
+				"respo",
+				"response"
+			],
+			[
+				"fo",
+				"for	for …"
+			],
+			[
+				"de",
+				"description"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"prop",
+				"property"
+			],
+			[
+				"has",
+				"hasProperties"
+			],
+			[
+				"ite",
+				"items"
+			],
+			[
+				"id",
+				"id_unit"
+			],
+			[
+				"jq",
+				"jquery"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"Data",
+				"DataTable"
+			],
+			[
+				"group",
+				"group_id"
+			],
+			[
+				"val",
+				"validDate"
+			],
+			[
+				"str",
+				"strrpos"
+			],
+			[
+				"des",
+				"desc"
+			],
+			[
+				"so",
+				"short_s"
+			],
+			[
+				"Eas",
+				"EasyRdf_Namespace"
+			],
+			[
+				"rd",
+				"rdfs"
+			],
+			[
+				"spa",
+				"sparql"
+			],
+			[
+				"pre",
+				"prefix"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"spar",
+				"sparqlUpdate"
+			],
+			[
+				"sub",
+				"subject"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"sear",
+				"searchtext"
+			],
+			[
+				"class",
+				"classType"
+			],
+			[
+				"sea",
+				"searchtext"
+			],
+			[
+				"searc",
+				"searchForm"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"sp",
+				"splitUri"
+			],
+			[
+				"que",
+				"query"
+			],
+			[
+				"it",
+				"itsAbout"
+			],
+			[
+				"row",
+				"rows"
+			],
+			[
+				"__",
+				"__toString"
+			],
+			[
+				"eve",
+				"eventDate"
+			],
+			[
+				"ac",
+				"activity"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"spli",
+				"splitUri"
+			],
+			[
+				"p",
+				"property"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"view",
+				"viewPage"
+			],
+			[
+				"ty",
+				"types"
+			],
+			[
+				"arra",
+				"arrayValOfType"
+			],
+			[
+				"spl",
+				"splitedVal"
+			],
+			[
+				"short",
+				"shortVal"
+			],
+			[
+				"name",
+				"namespaces"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"alig",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"top",
+				"top"
+			],
+			[
+				"kode",
+				"kodeUnits"
+			],
+			[
+				"li",
+				"listUnit"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"var",
+				"var"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"seri",
+				"serialise"
+			],
+			[
+				"ur",
+				"uriProp"
+			],
+			[
+				"Ea",
+				"EasyRdf_Graph"
+			],
+			[
+				"dump",
+				"dumpValue"
+			],
+			[
+				"pirnt",
+				"print_r"
+			],
+			[
+				"query",
+				"query"
+			],
+			[
+				"in",
+				"individual"
+			],
+			[
+				"Eass",
+				"EasyRdf_Namespace"
+			],
+			[
+				"dat",
+				"data"
+			],
+			[
+				"ed",
+				"endpoint"
+			],
+			[
+				"scr",
+				"scriptBlock"
+			],
+			[
+				"end",
+				"endpoint"
+			],
+			[
+				"e",
+				"events"
+			],
+			[
+				"ev",
+				"events"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"ba",
+				"border-image-repeat"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ter",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"sty",
+				"list-style"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"is",
+				"isVisibleProduct"
+			],
+			[
+				"_",
+				"_item"
+			],
+			[
+				"pa",
+				"payment_method"
+			],
+			[
+				"sen",
+				"senderName"
+			],
+			[
+				"se",
+				"sellerName"
+			],
+			[
+				"sellere",
+				"selleremail"
+			],
+			[
+				"email",
+				"emailTemplate"
+			],
+			[
+				"ema",
+				"email"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Controller/xDashboardsController.php",
+			"settings":
+			{
+				"buffer_size": 2566,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Controller/BeritasController.php",
+			"settings":
+			{
+				"buffer_size": 4892,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Config/routes.php",
+			"settings":
+			{
+				"buffer_size": 2200,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Config/core.php",
+			"settings":
+			{
+				"buffer_size": 14444,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Controller/AppController.php",
+			"settings":
+			{
+				"buffer_size": 3185,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/View/Users/setup.ctp",
+			"settings":
+			{
+				"buffer_size": 1032,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/View/Themed/Ganjuran/Layouts/front.ctp",
+			"settings":
+			{
+				"buffer_size": 1754,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Model/User.php",
+			"settings":
+			{
+				"buffer_size": 6449,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Controller/UsersController.php",
+			"settings":
+			{
+				"buffer_size": 7026,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/View/Themed/Ganjuran/Layouts/dashboard.ctp",
+			"settings":
+			{
+				"buffer_size": 2496,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Controller/BeritaController.php",
+			"settings":
+			{
+				"buffer_size": 5026,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/View/Themed/Ganjuran/Elements/admin-sidebar.ctp",
+			"settings":
+			{
+				"buffer_size": 4780,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/View/Berita/admin_add.ctp",
+			"settings":
+			{
+				"buffer_size": 1637,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/View/Berita/admin_index.ctp",
+			"settings":
+			{
+				"buffer_size": 2679,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<h1>Hello</h1>",
+			"file": "app/View/Dashboard/index.ctp",
+			"file_size": 14,
+			"file_write_time": 130832359850988819,
+			"settings":
+			{
+				"buffer_size": 14,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Controller/MainController.php",
+			"settings":
+			{
+				"buffer_size": 263,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/View/Themed/Ganjuran/Elements/top-nav.ctp",
+			"settings":
+			{
+				"buffer_size": 2838,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/View/Profile/ganjuran.ctp",
+			"settings":
+			{
+				"buffer_size": 489,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/View/Profile/add.ctp",
+			"settings":
+			{
+				"buffer_size": 1203,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/View/Profile/edit.ctp",
+			"settings":
+			{
+				"buffer_size": 1203,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Model/Profile.php",
+			"settings":
+			{
+				"buffer_size": 2695,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 52.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/ganjuran",
+		"/var/www/html/ganjuran/app",
+		"/var/www/html/ganjuran/app/Config",
+		"/var/www/html/ganjuran/app/Controller",
+		"/var/www/html/ganjuran/app/Model",
+		"/var/www/html/ganjuran/app/View",
+		"/var/www/html/ganjuran/app/View/Berita",
+		"/var/www/html/ganjuran/app/View/Themed",
+		"/var/www/html/ganjuran/app/View/Themed/Ganjuran",
+		"/var/www/html/ganjuran/app/View/Themed/Ganjuran/Elements",
+		"/var/www/html/ganjuran/app/View/Themed/Ganjuran/Layouts",
+		"/var/www/html/ganjuran/app/View/Users"
+	],
+	"file_history":
+	[
+		"/var/www/html/ganjuran/app/View/Dashboards/berita.ctp",
+		"/var/www/html/ganjuran/app/View/Profile/view.ctp",
+		"/www/html/icube/meltontackle/app/code/local/Icube/Cms/etc/config.xml",
+		"/www/html/icube/meltontackle/app/code/local/Icube/Cms/sql/icube_cms_setup/mysql4-upgrade-0.1.1-0.1.2.php",
+		"/www/html/icube/meltontackle/app/code/local/Icube/Cms/sql/icube_cms_setup/untitled.html",
+		"/www/html/icube/meltontackle/app/design/frontend/interface/melton/template/aw_islider/representations/default/block.phtml",
+		"/www/html/icube/meltontackle/app/design/frontend/interface/default/template/aw_islider/representations/default/block.phtml",
+		"/www/html/icube/meltontackle/app/design/frontend/interface/melton/template/catalog/product/list.phtml",
+		"/www/html/icube/meltontackle/app/code/local/Icube/Cms/sql/icube_cms_setup/mysql4-upgrade-0.1.3-0.1.4.php",
+		"/www/html/icube/meltontackle/app/code/local/Icube/Cms/sql/icube_cms_setup/mysql4-upgrade-0.1.1-0.1.3.php",
+		"/www/html/icube/meltontackle/app/code/local/Amasty/Base/Block/Conflicts.php",
+		"/www/html/icube/meltontackle/app/design/frontend/enterprise/default/template/catalog/product/list.phtml",
+		"/www/html/icube/meltontackle/app/design/frontend/interface/melton/template/catalog/product/list/toolbar.phtml",
+		"/www/html/icube/meltontackle/app/design/frontend/interface/melton/template/catalog/product/price.phtml",
+		"/www/html/icube/matchingearring/app/design/frontend/smartwave/legenda/template/marketplace/simpleproduct.phtml",
+		"/www/html/icube/matchingearring/app/code/local/Webkul/Marketplace/controllers/MarketplaceaccountController.php.2015-08-01",
+		"/www/html/icube/matchingearring/app/design/frontend/smartwave/legenda/template/marketplace/mydashboard.phtml.2015-08-03",
+		"/www/html/icube/matchingearring/app/design/frontend/smartwave/legenda/template/marketplace/simpleproduct.phtml.2015-08-03",
+		"/run/media/dedeo/LEMARI/THE DO/file web ganjuran/GREEN responsive bootstraap template.html",
+		"/run/media/dedeo/LEMARI/ganjuran/app/View/Themed/Ganjuran/Layouts/home1.ctp",
+		"/run/media/dedeo/LEMARI/ganjuran/app/View/Themed/Ganjuran/Layouts/home.ctp",
+		"/www/html/icube/matchingearring/app/design/frontend/smartwave/legenda/template/customer/account/navigation.phtml",
+		"/www/html/icube/matchingearring/app/design/frontend/smartwave/legenda/template/marketplace/marketplace.phtml",
+		"/www/html/icube/matchingearring/var/log/system.log",
+		"/www/html/icube/matchingearring/app/design/frontend/base/default/template/customer/account/navigation.phtml",
+		"/www/html/icube/matchingearring/app/code/local/Webkul/Marketplace/controllers/Adminhtml/ProductsController.php",
+		"/www/html/icube/matchingearring/app/code/local/Webkul/Marketplace/controllers/Adminhtml/ProductsController.php.2015-07-27",
+		"/www/html/icube/matchingearring/app/code/local/Webkul/Marketplace/Model/Product.php",
+		"/www/html/icube/matchingearring/app/code/local/Webkul/Marketplace/Model/Product.php.2015-07-27",
+		"/www/html/icube/matchingearring/app/code/core/Mage/Customer/controllers/AccountController.php",
+		"/www/html/ganjuran/app/Controller/MainController.php",
+		"/www/html/ganjuran/app/Controller/AppController.php",
+		"/www/html/ganjuran/app/View/Themed/Ganjuran/Layouts/home.ctp",
+		"/www/html/ganjuran/app/View/News/index.ctp",
+		"/www/html/ganjuran/app/Config/email.php",
+		"/www/html/ganjuran/app/View/Themed/Ganjuran/Elements/top-nav.ctp",
+		"/www/html/ganjuran/app/View/Themed/Ganjuran/Elements/footer.ctp",
+		"/www/html/ganjuran/app/View/Themed/Ganjuran/Elements/slider.ctp",
+		"/www/html/ganjuran/app/Controller/RenungansController.php",
+		"/www/html/ganjuran/app/Config/core.php",
+		"/www/html/ganjuran/app/Config/bootstrap.php",
+		"/www/html/ganjuran/app/Config/routes.php",
+		"/www/html/ganjuran/app/View/Main/index.ctp",
+		"/www/html/ganjuran/app/Config/database.php",
+		"/etc/httpd/conf.d/vhost.conf",
+		"/etc/httpd/conf/httpd.conf",
+		"/etc/httpd/conf.modules.d/00-base.conf",
+		"/www/html/ganjuran/ganjuran/app/Config/bootstrap.php",
+		"/www/html/ganjuran/ganjuran/app/Model/AppModel.php",
+		"/www/html/ganjuran/ganjuran/app/Controller/AppController.php",
+		"/www/html/ganjuran/app/Model/AppModel.php",
+		"/run/media/dedeo/EMBER/ASUS_Zenfone5_AndromaxG2/boot.img",
+		"/www/html/icube/matchingearring/app/locale/en_US/template/email/marketplacepartner/webkul_order_invoice.html",
+		"/www/html/icube/matchingearring/app/locale/en_US/template/email/customtheme/notification_mail.html",
+		"/www/html/icube/matchingearring/var/session/sess_4vmbnbmellrtn8nushf0671tk7",
+		"/www/html/icube/matchingearring/var/log/exception.log",
+		"/etc/mail.rc",
+		"/var/www/html/contoh.html",
+		"/var/www/html/test.php",
+		"/www/html/info.php",
+		"/www/html/icube/hourglassangel/app/code/core/Mage/Adminhtml/Block/Sales/Order/View/History.php",
+		"/www/html/icube/hourglassangel/app/code/core/Mage/Adminhtml/Block/Sales/Order/Abstract.php",
+		"/www/html/icube/hourglassangel/app/code/core/Mage/Adminhtml/controllers/Sales/OrderController.php",
+		"/var/www/html/icube/hourglassangel/app/code/local/SFC/Kount/Helper/Data.php",
+		"/var/www/html/latihan/hitung.php",
+		"/var/www/html/latihan/kalkulator.html",
+		"/www/html/icube/magento/app/etc/local.xml",
+		"/www/html/icube/hourglassangel/var/report/759782459946",
+		"/www/html/icube/hourglassangel/var/report/640571799756",
+		"/www/html/icube/hourglassangel/app/code/core/Mage/Paypal/Model/Api/Nvp.php",
+		"/run/media/dedeo/LEMARI/THE DO/startbootstrap-full-slider-1.0.3/index.html",
+		"/var/www/html/ganjuran/app/View/Themed/Ganjuran/Elements/slider1.ctp",
+		"/run/media/dedeo/LEMARI/THE DO/startbootstrap-full-slider-1.0.3/css/full-slider.css",
+		"/var/www/html/ganjuran/app/View/Themed/Ganjuran/Layouts/home1.ctp",
+		"/run/media/dedeo/LEMARI/THE DO/greeen/index.html",
+		"/var/www/html/ganjuran/app/Controller/ProfilesController.php",
+		"/var/www/html/ganjuran/app/View/Themed/Ganjuran/Elements/my-topnav.ctp",
+		"/var/www/html/ganjuran/app/View/Profiles/view.ctp",
+		"/var/www/html/ganjuran/app/View/Profiles/graph.ctp",
+		"/var/www/html/ganjuran/app/Vendor/easyrdf/examples/graphviz.php",
+		"/var/www/html/ganjuran/app/Config/core.php",
+		"/var/www/html/ganjuran/app/Config/routes.php",
+		"/home/dedeo/Downloads/query_barends.rdf",
+		"/home/dedeo/LEMARI/query_result",
+		"/var/www/html/ganjuran/app/Config/bootstrap.php",
+		"/var/www/html/ganjuran/app/Controller/AppController.php",
+		"/var/www/html/ganjuran/app/View/Layouts/default.ctp",
+		"/etc/php.ini",
+		"/var/www/html/ganjuran/app/webroot/css/vis.css",
+		"/run/media/dedeo/LEMARI/KULIAH/SKRIPSI/Source/vis/examples/network/labels/labelAlignment.html",
+		"/run/media/dedeo/LEMARI/KULIAH/SKRIPSI/Source/vis/examples/network/edgeStyles/arrows.html",
+		"/run/media/dedeo/LEMARI/KULIAH/SKRIPSI/Source/vis/examples/network/basicUsage.html",
+		"/run/media/dedeo/LEMARI/KULIAH/SKRIPSI/Ontology/ganjuran_ontologi_rev-1.owl",
+		"/var/www/html/ganjuran/app/View/Profiles/view/_Person.ctp",
+		"/var/www/html/l",
+		"/var/www/html/gis/app/Controller/GroupsController.php",
+		"/var/www/html/gis/app/View/Units/index.ctp",
+		"/var/www/html/gis/app/View/Themed/Ganjuran/Layouts/dashboard.ctp",
+		"/var/www/html/gis/app/View/Themed/Ganjuran/Layouts/landingpage.ctp",
+		"/var/www/html/gis/app/webroot/js/dataTable.js",
+		"/var/www/html/gis/app/webroot/css/sb-admin.css",
+		"/var/www/html/gis/app/View/Units/view.ctp",
+		"/var/www/html/gis/app/Model/Unit.php",
+		"/var/www/html/gis/app/Model/Item.php",
+		"/var/www/html/gis/app/View/Units/_view.ctp",
+		"/var/www/html/gis/app/Controller/HomeController.php",
+		"/var/www/html/gis/app/View/Themed/Ganjuran/Elements/top-nav.ctp",
+		"/www/html/gis/app/webroot/css/grayscale.css",
+		"/www/html/gis/app/View/Themed/Ganjuran/Layouts/landingpage.ctp",
+		"/var/www/html/gis/app/Controller/UsersController.php",
+		"/var/www/html/gis/app/View/Themed/Ganjuran/Elements/admin-navbar.ctp",
+		"/var/www/html/gis/app/View/Home/home.ctp",
+		"/var/www/html/gis/app/View/Users/login.ctp",
+		"/var/www/html/gis/app/Controller/MainController.php",
+		"/var/www/html/gis/app/View/Main/index.ctp",
+		"/var/www/html/gis/app/View/Users/add.ctp",
+		"/var/www/html/gis/app/View/Items/edit.ctp",
+		"/var/www/html/gis/app/View/Items/index.ctp",
+		"/var/www/html/gis/app/Controller/AppController.php",
+		"/var/www/html/gis/app/webroot/js/jquery.dataTables.min.js",
+		"/var/www/html/gis/app/Config/routes.php",
+		"/var/www/html/gis/app/webroot/css/grayscale.css",
+		"/www/html/gis/app/webroot/js/jquery.dataTables.min.js",
+		"/ember/Downloads/bootstrap-3.3.2-dist/sample.html",
+		"/var/www/html/gis/app/View/Units/_edit.ctp",
+		"/var/www/html/gis/app/View/Units/_index.ctp",
+		"/var/www/html/gis/app/Config/bootstrap.php",
+		"/var/www/html/gis/app/Model/Group.php"
+	],
+	"find":
+	{
+		"height": 21.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/www/html/icube/meltontackle/",
+			"/www/html/icube/meltontackle/app/",
+			"/www/html/icube/meltontackle/app/design",
+			"/www/html/icube/meltontackle/app/design/frontend",
+			"/www/html/icube/matchingearring/app/design/frontend",
+			"/www/html/icube/matchingearring",
+			"/www/html/icube/matchingearring/app/",
+			"/www/html/icube/matchingearring/app/design",
+			"/www/html/icube/matchingearring/app",
+			"/www/html/icube/matchingearring/app/code/local/Webkul",
+			"/www/html/icube/matchingearring/app/",
+			"/www/html/icube/matchingearring/",
+			"/www/html/icube/matchingearring/app",
+			"/www/html/icube/matchingearring/app/locale/en_US",
+			"/www/html/icube/matchingearring/",
+			"/www/html/icube/matchingearring/var",
+			"/var/www/html/icube/hourglassangel/app/code/local/",
+			"/var/www/html/icube/hourglassangel/app/code/local/SFC/",
+			"/var/www/html/icube/hourglassangel/app/",
+			"/var/www/html/icube/magento/app/",
+			"/var/www/html/icube/magento/app/design/adminhtml/",
+			"/var/www/html/ganjuran/app/Vendor/easyrdf/lib",
+			"/var/www/html/icube/magento/app/",
+			"/var/www/html/icube/magento/app/code/",
+			"/var/www/html/icube/meltontackle/",
+			"/var/www/html/icube/meltontackle/app/design/frontend",
+			"/var/www/html/icube/matchingearring/app/code/core/Mage/Adminhtml/Block",
+			"/www/html/icube/amphenol/app/code/core"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Tambah",
+			"dashboard_",
+			"notEmpty",
+			"notBlank",
+			"$berita['Berita']",
+			"Check out our featured products.",
+			"section class=\"Featured",
+			"class=\"Featured",
+			"FeaturedProductsMain",
+			"FeaturedProduct",
+			"section class=\"Featured",
+			"section class=\"",
+			"section class=\"Featured ",
+			"class=\"FeaturedProductsMain\"",
+			"FeaturedProductsMain",
+			"Check out our featured products.",
+			"Starting at",
+			"Pay with Credit card or Paypal",
+			"ADD SIMPLE PRODUCT",
+			"YOUR REQUEST TO BECOME SELLER",
+			"Could not open socket",
+			"Januari\nFebruari\nMaret\nApril\nMei\nJuni\nJuli\nAgustus\nSeptember\nOktober\nNovember\nDesember\n\n",
+			";\n",
+			"Market Place",
+			"Become a Partner",
+			"denied",
+			"denied from approval.",
+			"This is to inform you that your product has been denied from approval.",
+			"Admin",
+			"deny",
+			"Administrator",
+			"wrapContent",
+			"wrap",
+			"Your earring has been sold",
+			"Please be sure to package your earring very securely",
+			"Please mail your earring within the next five business days. Please be sure to package your ",
+			"Your earring has been sold. Please mail your earring within the next five business days",
+			"Your earring has been sold. Please mail your earring within the next five business days. Please be sure to package your earring very securely",
+			"log",
+			"One Customer has Contacted",
+			"contact",
+			"Mage",
+			"\n                        ",
+			"contact",
+			"Thank you for contacting us. We will respond as soon as possible.",
+			"Matching Earring is a website where you can search for an earring that matches your single earring, or sell your earring to someone who needs it to complete a pair.",
+			"Thank you for contacting us. We will respond as soon as possible.",
+			"mail",
+			"setOrderToKountDecline",
+			"refundOrder",
+			"setOrderToKountDecline",
+			"handleKountStatusChange",
+			"decline",
+			"ORDER_STATUS_KOUNT_DECLINE",
+			"decline_kount",
+			"_POSH",
+			"order_status",
+			"history_status",
+			"comment",
+			"request",
+			"http://www.w3.org/2001/XMLSchema#",
+			"http://www.w3.org/2000/01/rdf-schema#",
+			"http://schema.org/",
+			"http://www.w3.org/2002/07/owl#",
+			"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+			"http://www.gerejaganjuran.or.id/ontology/ganjuran/",
+			"http://www.gerejaganjuran.or.id/profiles/view/",
+			"limit",
+			"debug",
+			"img",
+			"Input",
+			"punyaIbu",
+			"nama ibu",
+			"eventDate",
+			"hasFather",
+			"hasMother",
+			"isMotherOf",
+			"isFatherOf",
+			"hasWife",
+			"hasHusband",
+			"stefanus",
+			"gottfried",
+			"hasObject",
+			"unit",
+			"//$",
+			"class",
+			"Show",
+			"prev",
+			"); ?></td>",
+			"<td><?php echo h(",
+			"); ?></th>",
+			"-lg-",
+			"</li>",
+			"<li>",
+			"'Unit'",
+			"');\n",
+			")",
+			"$this->Paginator->sort(",
+			"input",
+			"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nM\nN\nP\nQ\nR\nS\nT\nU\nV\nW\nX\nY",
+			"'",
+			" |",
+			"| http://www.gerejaganjuran.or.id/profiles/view/",
+			"  |",
+			"| http://www.gerejaganjuran.or.id/profiles/view/",
+			"  |",
+			"| http://www.gerejaganjuran.or.id/profiles/view/",
+			" |",
+			"| http://www.gerejaganjuran.or.id/profiles/view/",
+			"Caroline_Theresia_Maria_van_Rijckevorsel\nEduard_Milhelm_Maria_Schmutzer          \nElise_Anna_Maria_Schmutzer              \nElise_Francisca_Wilhelmia_Kartaus       \nGottfried_Schmutzer                     \nJosef_Ignas_Julius_Maria_Schmutzer      \nJulius_Robert_Anton_Maria_Schmutzer     \nM_Somaatmaja                            \nMgr_van_Velsen_SJ                       \nPadmayatiwara                           \nRm_van_Driessche_SJ                     \nSri_Sultan_Hamengku_Buwono_VIII         \nStefanus_Barends                        \nElise_Maria_Louise_Schmutzer            \nMaria_Theresia_Josefine_Schmutzer       \nFerdinand_Barends                       \nC_Dirjo_Sudaryo                         \nDarmowiyoto                             \nDirjosumarto                            \nL_Darmoatmojo                           \nSiswodiningrat                          \nJohannes_Ferdinand_Karthaus             \nI_Waginem\nLucie_Cornelle_Amelie_Hendriksz\nMaria_Anna_Christina_Melchers",
+			" |",
+			"| http://www.gerejaganjuran.or.id/profiles/view/",
+			"debug",
+			"change",
+			"form",
+			"val",
+			"footer",
+			"wrap",
+			"&ganjuran",
+			"ganjuran",
+			"form",
+			"class=\"col-sm-2 control-label\"",
+			"caption",
+			"select",
+			"$row['Units']",
+			"$row['Unit']",
+			"$this->Unit",
+			"Unit"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"admin_",
+			"notBlank",
+			"$renungan['Renungan']",
+			"Matching Earring",
+			"_GET",
+			"xsd:",
+			"rdfs:",
+			"schema:",
+			"owl:",
+			"rdf:",
+			"ganjuran:",
+			"gdata:",
+			"../img/vis",
+			"punyaAyah",
+			"punyaIbu",
+			"ibuDari",
+			"ayahDari",
+			"punyaIstri",
+			"punyaSuami",
+			",",
+			"",
+			",",
+			"-md-",
+			"",
+			"'Item'",
+			"",
+			"$row['Unit']",
+			"$row['Item']",
+			"$this->Item",
+			"Item",
+			"<?php",
+			"profil",
+			"files/sample/",
+			"col-lg-4",
+			"col-lg-3",
+			"src=\"/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/var/www/html/ganjuran"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 12,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Controller/xDashboardsController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2566,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								480,
+								480
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Controller/BeritasController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4892,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4891,
+								4891
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 273.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Config/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1548,
+								1548
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 49.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Config/core.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14444,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5245,
+								5245
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1599.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/Controller/AppController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1893,
+								1893
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 234.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/View/Users/setup.ctp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1032,
+								1032
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/View/Themed/Ganjuran/Layouts/front.ctp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1754,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1363,
+								1363
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/Model/User.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1712,
+								1712
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/Controller/UsersController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2547,
+								2547
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 468.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/View/Themed/Ganjuran/Layouts/dashboard.ctp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								912,
+								912
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 85.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/Controller/BeritaController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2999,
+								2999
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1209.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/View/Themed/Ganjuran/Elements/admin-sidebar.ctp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4780,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2525,
+								2525
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/View/Berita/admin_add.ctp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1637,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1062,
+								1062
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "app/View/Berita/admin_index.ctp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2270,
+								2270
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 273.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "app/View/Dashboard/index.ctp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14,
+								14
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "app/Controller/MainController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "app/View/Themed/Ganjuran/Elements/top-nav.ctp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2123,
+								2123
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 39.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "app/View/Profile/ganjuran.ctp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 489,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								489,
+								489
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "app/View/Profile/add.ctp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "app/View/Profile/edit.ctp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1203,
+								1203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "app/Model/Profile.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2695,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								202,
+								202
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 261.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

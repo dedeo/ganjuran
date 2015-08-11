@@ -17,24 +17,27 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">beranda</a></li>
-                    <li><a href="#news">berita</a></li>
-                    <li><a href="#section-profil">profil</a></li>
+                    <li><a href="<?php echo $this->Html->url(array('controller'=>'/')) ?>">beranda</a></li>
+                    <li><a href="<?php echo $this->Html->url(array('controller'=>'berita')) ?>">berita</a></li>
+                    <!-- <li><a href="#section-profil">profil</a></li> -->
+                    <li><a href="<?php echo $this->Html->url(array('controller'=>'renungan')) ?>">renungan</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Even <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Profil <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Prosesi</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">One more separated link</a></li>
+                            <li><a href="<?php echo $this->Html->url(array('controller'=>'profile','action'=>'ganjuran')) ?>">Gereja Ganjuran</a></li>
+                            <li><a href="<?php echo $this->Html->url(array('controller'=>'profile','action'=>'paguyuban')) ?>">Paguyuban</a></li>
+                            <!-- <li><a href="#">Paguyuban</a></li> -->
                         </ul>
                     </li>
-                    <li><a href="#">paguyuban</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Pengumuman <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Jadwal Misa</a></li>
+                            <li><a href="#">Aktifitas</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li><a href="#">paguyuban</a></li> -->
                     <li><a href="#">galeri</a></li>
-                    <li><a href="#">renungan</a></li>
                     <li><a href="#">komentar</a></li>
                 </ul>
             </div>

@@ -115,3 +115,5 @@ CakeLog::config('error', array(
 
 //
 CakePlugin::load('DebugKit');
+CakePlugin::load('FileUpload');
+CakePlugin::load('AjaxMultiUpload');

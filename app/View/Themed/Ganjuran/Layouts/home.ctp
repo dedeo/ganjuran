@@ -26,6 +26,7 @@
     <?php
     echo $this->element('top-nav');
     echo $this->element('slider');
+    echo $this->fetch('content');
     ?>
 
     <?php
